@@ -9,14 +9,14 @@ packages:
 - filebeat
 
 properties:
-  elasticsearch.hosts:
+  bosh-log-forwarder.elasticsearch.hosts:
     description: List of elasticsearch hosts in format "<host or ip>:<port>"
-  elasticsearch.protocol:
+  bosh-log-forwarder.elasticsearch.protocol:
     description: Elasticsearch protocol
     default: http
-  elasticsearch.username:
+  bosh-log-forwarder.elasticsearch.username:
     description: Elasticsearch username
     default: ""
-  elasticsearch.password:
+  bosh-log-forwarder.elasticsearch.password:
     description: Elasticsearch password
     default: ""

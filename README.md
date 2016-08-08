@@ -11,7 +11,8 @@ Add the following lines to all instances, for which you want to configure log fo
   - name: bosh-log-forwarder
     release: bosh-log-forwarder
   properties:
-    elasticsearch:
+    bosh-log-forwarder:
+      elasticsearch:
       hosts: ['<host>:<port>']
       username: <username>
       password: <password>
